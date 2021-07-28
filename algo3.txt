@@ -1,0 +1,45 @@
+PROCEDURE prod (    )
+
+V1 : ARRAY_OF FLOAT[n];
+V2 : ARRAY_OF FLOAT[n];
+
+
+VAR
+P:FLOAT
+
+BEGIN
+IF (length.V1=length.V2) THEN
+ p=(V1[0]*V2[0])+(V1[1]*V2[1])   
+
+WHILE (p=0) DO
+   
+   
+    write("ORTHO")
+END_WHILE
+ELSE
+write (NaN)
+
+END_IF
+
+    set_instructions
+END
+
+
+
+
+
+
+ALGORITHM algorithm_name
+
+VAR
+    
+
+
+
+BEGIN
+    
+    
+    
+    
+    
+END

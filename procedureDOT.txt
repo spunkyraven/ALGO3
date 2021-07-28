@@ -1,0 +1,27 @@
+
+PROCEDURE VV (V1,V2:ARRAY_OF INTEGER , VAR po:INTEGER)
+VAR 
+i:INTEGER
+BEGIN
+IF (V1.length <> V2.length) THEN
+    write("cannot calculate")
+ELSE
+   
+   FOR i FROM 0 TO V1.length-1 STEP 1  DO
+       po=po+V1[i]*V2[i] 
+   END_FOR   
+END_IF
+
+ALGORITHM algorithm_name
+VAR
+  V2,V1:array_of INTEGER [n]
+  po:INTEGER
+BEGIN
+   po=0
+   IF ( po=0) THEN
+       write("ortho")
+   END_IF
+
+
+   
+END

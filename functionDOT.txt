@@ -1,0 +1,20 @@
+FUNCTION function_name(V1,V2 : ARRAY_OF INTEGER) : FLOAT
+VAR
+
+i:INTEGER
+DOT: FLOAT
+
+BEGIN
+i=0
+DOT=0
+IF (V1.length <> V2.length) THEN
+    write("cannot calc")
+    RETURN NaN
+END_IF
+    WHILE (i<V1.length) DO
+
+       DOT=DOT+v1[i]*V2[i]
+    END_WHILE
+    
+    RETURN DOT ;
+END
